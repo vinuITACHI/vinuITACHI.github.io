@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinod | Full-Stack, Security & AI Engineer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #020617;
+      --card: rgba(255,255,255,0.025);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --border: #1e293b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top, #020617, #000);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px 70px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 14px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 880px;
+      margin: auto;
+    }
+
+    .badge {
+      margin-top: 22px;
+      display: inline-block;
+      padding: 9px 18px;
+      border-radius: 999px;
+      background: rgba(56,189,248,0.12);
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    section { margin-top: 72px; }
+
+    h2 {
+      font-size: 1.9rem;
+      margin-bottom: 20px;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    h3 {
+      margin-top: 22px;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 30px;
+    }
+
+    p { margin-bottom: 14px; }
+
+    ul { list-style: none; }
+
+    ul li {
+      margin-bottom: 12px;
+      color: var(--muted);
+    }
+
+    ul li::before {
+      content: "•";
+      color: var(--accent);
+      margin-right: 8px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .tag {
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 90px;
+      padding-top: 30px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Hi, I’m Vinod</h1>
+    <p>
+      Full-Stack Engineer with strong experience building real-world platforms,
+      combined with deep interest in cybersecurity, infrastructure,
+      and AI-driven systems.
+    </p>
+    <div class="badge">Full-Stack • Cybersecurity • AI & AI Agents</div>
+  </div>
+
+  <div class="container">
+
+    <!-- SUMMARY -->
+    <section>
+      <h2>Professional Summary</h2>
+      <div class="card">
+        <p>
+          I am a <strong>Full-Stack Engineer</strong> who has worked on
+          end-to-end platforms used by real users, while also owning
+          infrastructure, security, and operational responsibilities.
+        </p>
+        <p>
+          My work spans <strong>frontend, backend, real-time systems,
+          identity, email infrastructure, and secure hosting</strong>.
+          I enjoy understanding systems holistically rather than in isolation.
+        </p>
+        <p>
+          I am a <strong>Certified Ethical Hacker (CEH v11)</strong> and apply
+          ethical, defensive security practices across everything I build.
+        </p>
+      </div>
+    </section>
+
+    <!-- FULL STACK EXPERIENCE -->
+    <section>
+      <h2>Full-Stack Product Engineering</h2>
+      <div class="card">
+        <ul>
+          <li>
+            Built and maintained a full-stack web platform for colleges,
+            supporting Training & Placement Officers (TPO), HODs,
+            administrators, and students.
+          </li>
+          <li>
+            Developed frontend applications using React (Vite),
+            implementing authentication, role-based dashboards,
+            and responsive user interfaces.
+          </li>
+          <li>
+            Designed backend services using NestJS to handle user management,
+            assessments, events, interviews, and placement workflows.
+          </li>
+          <li>
+            Implemented secure login flows for students, faculty,
+            and administrators with controlled access to exams,
+            interviews, and internal tools.
+          </li>
+          <li>
+            Built features for self-interviews, video interviews,
+            and multi-participant interview workflows using real-time technologies.
+          </li>
+          <li>
+            Worked on coding-assessment and examination modules,
+            allowing students to attend tests and track outcomes.
+          </li>
+          <li>
+            Maintained and corrected existing React and backend codebases,
+            resolving bugs, improving stability, and handling edge cases.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SYSTEMS & SECURITY -->
+    <section>
+      <h2>Systems, Security & Platform Engineering</h2>
+      <div class="card">
+        <ul>
+          <li>
+            Deployed and operated full-stack applications on Linux-based VPC
+            environments with secure networking and TLS encryption.
+          </li>
+          <li>
+            Managed domains, DNS, SSL (Let’s Encrypt), and reverse proxy routing
+            using NGINX.
+          </li>
+          <li>
+            Administered Microsoft 365 tenants, resolving domain validation
+            errors, DNS conflicts, application permissions, and security policies.
+          </li>
+          <li>
+            Architected and operated self-hosted email infrastructure with
+            SPF, DKIM, DMARC, and MTA-STS enforcement.
+          </li>
+          <li>
+            Performed incident response and remediation for a compromised
+            WordPress deployment, including hardening and prevention measures.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CYBERSECURITY -->
+    <section>
+      <h2>Cybersecurity & Ethical Hacking</h2>
+      <div class="card">
+        <ul>
+          <li>
+            Certified Ethical Hacker (CEH v11) with practical understanding
+            of reconnaissance, scanning, analysis, and mitigation techniques.
+          </li>
+          <li>
+            Conducted authorized security testing using Kali Linux
+            and Parrot OS in controlled environments.
+          </li>
+          <li>
+            Performed network reconnaissance using Nmap,
+            traffic analysis with Wireshark,
+            and web application testing with Burp Suite.
+          </li>
+          <li>
+            Applied findings to strengthen firewall rules (UFW),
+            service exposure, and application security.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- AI -->
+    <section>
+      <h2>AI & AI Agents</h2>
+      <div class="card">
+        <ul>
+          <li>
+            Worked with local LLM deployments and understands
+            how large language models run at a system level.
+          </li>
+          <li>
+            Built AI agents and automation workflows using n8n,
+            integrating APIs, decision logic, and task orchestration.
+          </li>
+          <li>
+            Interested in applying AI agents to security,
+            operations, and platform automation use cases.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TECH DOMAINS -->
+    <section>
+      <h2>Technical Domains</h2>
+      <div class="card">
+
+        <h3>Frontend & Backend</h3>
+        <div class="tags">
+          <span class="tag">React (Vite)</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">NestJS</span>
+        </div>
+
+        <h3>Security & OS</h3>
+        <div class="tags">
+          <span class="tag">CEH v11</span>
+          <span class="tag">Kali Linux</span>
+          <span class="tag">Parrot OS</span>
+          <span class="tag">Nmap</span>
+          <span class="tag">Burp Suite</span>
+          <span class="tag">Wireshark</span>
+        </div>
+
+        <h3>Infrastructure</h3>
+        <div class="tags">
+          <span class="tag">Docker</span>
+          <span class="tag">NGINX</span>
+          <span class="tag">Linux (Ubuntu)</span>
+          <span class="tag">VPC Hosting</span>
+          <span class="tag">UFW Firewall</span>
+        </div>
+
+        <h3>Email & Identity</h3>
+        <div class="tags">
+          <span class="tag">Microsoft 365 Admin</span>
+          <span class="tag">SMTP</span>
+          <span class="tag">SPF / DKIM / DMARC</span>
+          <span class="tag">MTA-STS</span>
+        </div>
+
+        <h3>Real-Time Systems</h3>
+        <div class="tags">
+          <span class="tag">WebRTC</span>
+          <span class="tag">TURN / STUN</span>
+          <span class="tag">Video Interviews</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section>
+      <h2>Engineering Philosophy</h2>
+      <div class="card">
+        <ul>
+          <li>Build systems end-to-end, not in silos</li>
+          <li>Security and reliability are design decisions</li>
+          <li>Understand failures before scaling</li>
+          <li>Ethical responsibility in engineering</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Vinod — Full-Stack, Security & AI Engineer
+    </footer>
+
+  </div>
+
+</body>
+</html>
